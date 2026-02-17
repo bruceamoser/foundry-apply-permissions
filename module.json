@@ -1,0 +1,32 @@
+{
+  "id": "cascade-folder-permissions",
+  "title": "Cascade Folder Permissions",
+  "description": "Adds a checkbox to the Configure Ownership dialog for folders that applies the chosen permissions to all sub-folders and their contents recursively.",
+  "url": "https://github.com/bruceamoser/foundry-apply-permissions",
+  "version": "0.1.0",
+  "license": "LICENSE.md",
+  "bugs": "https://github.com/bruceamoser/foundry-apply-permissions/issues",
+  "authors": [
+    {
+      "name": "Bruce A. Moser",
+      "url": "https://github.com/bruceamoser"
+    }
+  ],
+  "compatibility": {
+    "minimum": "11",
+    "verified": "13"
+  },
+  "scripts": [
+    "scripts/cascade-permissions.js"
+  ],
+  "styles": [
+    "styles/cascade-permissions.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
+  ]
+}
